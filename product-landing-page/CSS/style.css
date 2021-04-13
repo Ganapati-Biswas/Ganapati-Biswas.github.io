@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #eee;
+    box-sizing: border-box;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+#logo{
+    width: 60vw;
+}
+
+#header-img{
+    max-width: 350px;
+    height: auto;
+}
+
+#nav-bar{
+    width: 35vw;
+}
+
+#nav-bar ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    /* margin: 65px; */
+}
+
+#top{
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+#top h2{
+    text-align: center;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+}
+
+#form #email{
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+    margin: 10px auto;
+    margin-bottom: 0px;
+    padding:5px 5px;
+    background-color: white;
+}
+
+#form #submit, .btn{
+    max-width: 200px;
+    margin: 10px auto;
+    cursor: pointer;
+    padding: 4px;
+    background-color: rgb(236, 62, 62);
+    color: white;
+}
+
+#container{
+    max-width: 1000px;
+    margin: 0px auto;
+} 
+
+#features{
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.grid{
+    padding:7px;
+    margin: 70px;
+    font-size: 1.5rem;
+}
+
+#how-it-works{
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+#video{
+    /* max-width: 500px; */
+    width: 100%;
+
+}
+
+#pricing{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+.price{
+    width: 32%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.hd{
+    width: 100%;
+    text-align: center;
+    background-color: #ddd;
+    padding: 10px;
+    
+}
+
+.mn{
+    padding: 3px;
+    margin: 10px;
+}
+
+.pr{
+    margin: 5px;
+}
+
+.btn{
+    margin-top: 25px;
+}
+
+footer{
+    margin-top: 19px;
+    width: 100%;
+    padding: 15px;
+    background-color:  #ddd;
+}
+
+footer > ul{
+    display: flex;
+    justify-content: flex-end;
+   list-style-type: none;
+   background-color:  #ddd;
+    
+}
+
+footer > span{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+    background-color:  #ddd;
+}
+
+footer ul li{
+    text-decoration: none;
+    margin: 0px 15px;
+    background-color:  #ddd;
+}
+
+@media (max-width: 665px)
+{
+    #nav-bar ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo{
+        max-width: 70vw;
+        margin: 0px auto;
+    }
+
+    #logo img{
+        max-width:100%;
+        height: auto;
+    }
+
+    #pricing{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .price{
+        width: 52%;
+        margin-bottom: 30px;
+        
+    }
+}
+
