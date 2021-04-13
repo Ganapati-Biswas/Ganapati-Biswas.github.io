@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#main{
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
+}
+
+#title,p,cite{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#img-div{
+    background-color: white;
+}
+#img-div img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0px auto;
+}
+
+#img-caption{
+      padding: 5px;
+      font-size: 1.2rem;
+}
+
+#tribute-info{
+    padding: 10px;
+    margin: 10px;
+}
+
+#tribute-info h3{
+    text-align: center;
+}
+
+#tribute-info ul{
+    display: block;
+    max-width: 550px;
+    margin: 10px auto 30px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+#tribute-info li{
+    font-size: 1.1rem;
+}
+
+#tribute-info #quote{
+    /* display: block; */
+    max-width: 550px;
+    margin: 10px auto 10px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+#tribute-lin{
+    text-align: center;
+    /* font-size: 1.6rem; */
+}
