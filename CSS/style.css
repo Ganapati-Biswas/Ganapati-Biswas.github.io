@@ -177,6 +177,11 @@ html {
 html {
     font-size: 60%;
 }
+
+#conlink a
+{
+    font-size: 1.7rem;
+}
 }
 
 @media (max-width: 28.75em){
@@ -212,7 +217,13 @@ html {
 {
     display: flex;
     justify-content: space-between;
-    width: 40%;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+#conlink a
+{
+    margin: 10px;
 }
 
 
