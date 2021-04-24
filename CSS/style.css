@@ -39,10 +39,6 @@ nav{
     
 }
 
-body{
-    background-color: violet;
-}
-
 .logo{
     color: rgb(226, 226, 226);
     text-transform: uppercase;
@@ -95,16 +91,16 @@ ul li{
     .nav-links {
         position: fixed;
         right: 0px;
-        height: 92vh;
+        height: 52vh;
         top: 8vh;
         background-color: #5D4954;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        width: 50%;
+        width: 100%;
         transform: translateX(100%);
-        /*transition: transform 0.5s ease-in; */
+        /* transition: transform 0.3s ease-in; */
     }
 
 }
@@ -242,6 +238,15 @@ h1 {
 html {
     font-size: 58%;
 }
+
+#conlink
+{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    flex-wrap: wrap;
+}
 }
 
 @media (max-width: 75em){
@@ -253,6 +258,7 @@ html {
 {
     font-size: 1.7rem;
 }
+
 }
 
 @media (max-width: 28.75em){
@@ -261,6 +267,8 @@ html {
     justify-content:center;
     font-size: small;
 }
+
+
 
 .nav-list {
     margin: 0 1rem;
@@ -288,6 +296,7 @@ html {
 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 50%;
     flex-wrap: wrap;
 }
