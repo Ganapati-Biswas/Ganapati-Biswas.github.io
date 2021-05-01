@@ -136,7 +136,7 @@ ul li{
 #welcome-section{
     height: 100vh;
     width: 100%;
-    position: relative;
+    /* position: relative; */
     background-color:rgb(64 64 114);
     display: flex;
     flex-direction: column;
@@ -248,13 +248,13 @@ h1 {
 }
 
 #welcome-section{
-    height: 100vh;
+    height: 94vh;
     width: 100%;
     position: relative;
-    background-color:rgb(64 64 114);
+    /* background-color:rgb(64 64 114);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
     justify-content: flex-end;
 }
 
@@ -267,7 +267,7 @@ h1 {
     top:0px;
     opacity: .7;
     left:0px;
-    height: 100vh;
+    height: 94vh;
     width: 100%;
 }
 #welcome-section h1,#welcome-section p{
