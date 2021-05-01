@@ -36,7 +36,7 @@ nav{
     font-family: "Poppins", sans-serif;
     color: white;
     width: 100%;
-    
+    z-index: 1;
 }
 
 .logo{
@@ -136,6 +136,7 @@ ul li{
 #welcome-section{
     height: 100vh;
     width: 100%;
+    position: relative;
     background-color:rgb(64 64 114);
     display: flex;
     flex-direction: column;
@@ -143,6 +144,22 @@ ul li{
     justify-content: center;
 }
 
+/* #welcome-section::before{
+    content: "";
+    background: url(/images/71114399_134134134628493_2978090727742898176_o.jpg);
+    position:absolute;
+    background-size: cover;
+    background-position: top center;
+    top:0px;
+    opacity: .7;
+    left:0px;
+    height: 100vh;
+    width: 100%;
+}
+#welcome-section h1,#welcome-section p{
+    position: relative;
+    color: black;
+} */
 h1, h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -230,8 +247,36 @@ h1 {
     font-size: 4rem;
 }
 
+#welcome-section{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color:rgb(64 64 114);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
 
+#welcome-section::before{
+    content: "";
+    background: url(/images/71114399_134134134628493_2978090727742898176_o.jpg);
+    position:absolute;
+    background-size: cover;
+    background-position: top center;
+    top:0px;
+    opacity: .7;
+    left:0px;
+    height: 100vh;
+    width: 100%;
+}
+#welcome-section h1,#welcome-section p{
+    position: relative;
+}
 
+#welcome-section h1{
+    color: black;
+}
 }
 
 @media (max-width: 61.25em){
@@ -247,6 +292,7 @@ html {
     width: 50%;
     flex-wrap: wrap;
 }
+
 }
 
 @media (max-width: 75em){
