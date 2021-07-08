@@ -1,6 +1,10 @@
 *{
 box-sizing: border-box;
 }
+html{
+background-color: rgb(197, 194, 194);
+
+}
 #container{
     max-width: 700px;
     margin: 40px auto;
@@ -65,5 +69,9 @@ p{
 label{
     display: block;
     font-size: 1.2rem;
+}
+
+button{
+    cursor: pointer;
 }
 
