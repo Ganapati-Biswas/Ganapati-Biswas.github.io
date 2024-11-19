@@ -289,7 +289,6 @@ html {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-/*     width: 50%; */
     flex-wrap: wrap;
 }
 
@@ -343,7 +342,6 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-/*     width: 50%; */
     flex-wrap: wrap;
 }
 
