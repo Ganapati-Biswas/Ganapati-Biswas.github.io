@@ -289,7 +289,7 @@ html {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
+/*     width: 50%; */
     flex-wrap: wrap;
 }
 
